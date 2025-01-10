@@ -1,0 +1,28 @@
+# Robot Kinematics
+
+## Description
+
+This package contains a ROS2 node that reads the velocities of two differential wheels and recalculates the position of the robot.
+
+## Installation
+
+1. Clone the repository into your ROS2 workspace:
+    ```sh
+    cd ~/ros2_ws/src
+    git clone <repository_url> robot_kinematics
+    ```
+
+2. Build the package:
+    ```sh
+    cd ~/ros2_ws
+    colcon build
+    ```
+
+3. Source the workspace:
+    ```sh
+    source ~/ros2_ws/install/setup.bash
+    ```
+
+## Usage
+
+To run the node, use the following command:
